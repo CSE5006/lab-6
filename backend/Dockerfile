@@ -1,5 +1,5 @@
 # Base this image on an official Node.js long term support image.
-FROM node:18.16.0-alpine
+FROM node:lts-alpine3.18
 
 # Install some additional packages that we need.
 RUN apk add --no-cache tini curl bash sudo
